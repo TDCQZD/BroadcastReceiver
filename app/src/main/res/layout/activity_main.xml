@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="send"
+        android:text="@string/send" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendOrder"
+        android:text="发送有序广播" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startService"
+        android:text="开机自动运行的Service"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="smsRemind"
+        android:text="短信提醒" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="batteryRemind"
+        android:text="手机电量提示" />
+</LinearLayout>
